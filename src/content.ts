@@ -1,5 +1,17 @@
-// All portfolio content lives here. Bilingual ES/EN.
-// Edit this file to update copy, projects, certs, etc.
+// ============================================================================
+//  CONTENIDO DEL PORTFOLIO  —  edita SOLO este archivo para actualizar la web.
+//  (Textos, proyectos, certificaciones, skills, enlaces... todo está aquí.)
+//
+//  Guía completa paso a paso:  ../GUIA-ACTUALIZAR.md
+//
+//  Reglas de oro para no romper nada:
+//   1. Respeta las comillas "..." y las comas al final de cada línea.
+//   2. Cada texto tiene versión  es: "español"  y  en: "inglés".
+//   3. Para probar antes de publicar:  npm run dev
+//   4. Para publicar los cambios:      .\publicar.ps1   (o: git add -A; git commit -m "..."; git push)
+// ============================================================================
+
+export type Lang = "es" | "en";
 
 export type Lang = "es" | "en";
 
